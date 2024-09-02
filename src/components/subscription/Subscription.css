@@ -1,0 +1,78 @@
+.subscription{
+    width: 100%;
+    height: 30rem;
+    background-color: rgba(237, 236, 245, 0.412);
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.subscription .subsleft{
+  padding-left: 20rem;
+}
+
+.subscription .subsleft img{
+    width: 40%;
+} 
+
+.subscription .subsleft .img2{
+  width: 15rem;
+}
+
+
+
+.subscription .subsright h2{
+    font-size:5rem;
+    font-weight: 200;
+} 
+
+.subscription .subsright form{
+    margin-top: 2rem;
+    display: flex;
+    align-content: center;
+    gap:2rem;
+}
+
+.subscription .subsright form input{
+    padding: 1.4rem 5rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.subscription .subsright form button{
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(84, 46, 168);
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+    .subscription{
+        height: 42rem;
+        flex-direction: column;
+    }
+
+    
+.subscription .subsleft{
+    padding-left: 0rem;
+    margin-top: 2rem;
+   
+}
+
+.subscription .subsright{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 2rem;
+   
+}
+
+.subscription .subsright h2{
+    font-size: 4rem;
+    text-align: center;
+}
+}

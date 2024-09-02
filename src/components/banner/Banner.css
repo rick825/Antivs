@@ -1,0 +1,82 @@
+.banner-container{
+   height: 76rem;
+   position: relative;
+}
+
+.banner{
+    display: flex;
+    height: 100%;
+    gap:4rem;
+    padding-bottom: 7rem;
+    background-color: rgba(229, 226, 247, 0.412);
+}
+
+.banner .bannertext{
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:3rem;
+  padding: 1rem 8rem;
+}
+
+.banner .bannertext h2{
+    font-size: 3.5rem;
+    font-weight: 200;
+}
+
+.banner .bannertext p{
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.banner .bannertext button{
+    padding: 1rem;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(84, 46, 168);
+    color: white;
+    cursor: pointer;
+}
+
+
+.banner .bannerpic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .bannerpic img{
+ width: 95%;
+ margin-top: 8rem;
+ margin-left: 4rem;
+}
+
+.banner .bannerpic2 img{
+    margin-top: 4rem;
+}
+
+@media only screen and (max-width:600px){
+
+    .banner-container{
+        min-height: 105rem;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .banner .bannertext{
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .banner .bannerpic img{
+        margin-left: 1rem;
+    }
+
+    .banner .bannerpic2 img{
+        margin-top: 0;
+        margin-left: 0;
+    }
+}

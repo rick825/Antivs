@@ -1,0 +1,50 @@
+.contactN{
+    width: 27rem;
+    height:9rem;
+    background-color: rgb(84, 46, 168);
+    color: white;
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    top: 20%;
+    padding: 1rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.8;
+    transition: 0.26s ease;
+}
+
+.contactN:hover{
+    opacity: 1;
+}
+
+.contactN h2{
+    font-size: 1.8rem;
+}
+
+.contactN p{
+    font-size: 1.5rem;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.contactN  a{
+    color: white;
+    font-weight: bold;
+}
+
+@media  only screen and (max-width: 768px) {
+    .contactN{
+        transform: translate(13rem);
+        transition: 0.2s ease;
+        top: 22%;
+        opacity: 0.2;
+    }
+
+    .contactN:hover{
+        transform: translate(0);
+        opacity: 0.8;
+    }
+}

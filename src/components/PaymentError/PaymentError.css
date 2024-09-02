@@ -1,0 +1,11 @@
+.payment-error {
+    color: red;
+    background-color: #fdd;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  

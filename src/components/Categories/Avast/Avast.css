@@ -1,0 +1,30 @@
+.avast .antivBanner{
+    background-color: #FF7A00;
+}
+
+
+.avast .antivBanner .antivsupport h2{
+    color: white;
+  }
+  
+  .avast .antivBanner .antivsupport  h3{
+    color: white;
+  }
+  
+  .avast .antivBanner .antivsupport p{
+      color: white;
+  }
+  
+  .avast .antivBanner .antivsupport a{
+      color: white;
+  }
+
+  .avast .customersupportbox{
+    background-color: #3a025d19;
+}
+
+.avast .antivlist button{
+    color: white;
+    cursor: pointer;
+    background-color: #FF7A00;
+}

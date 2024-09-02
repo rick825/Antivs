@@ -1,0 +1,111 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    margin-top: 12rem;
+  }
+  
+  .contactmain {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .contactleft, .contactright {
+    flex: 1;
+    padding: 30px;
+  }
+  
+  .contactleft {
+    background-color: rgb(96, 54, 187);
+    color: #fff;
+  }
+
+  .contactleft .contactpic{
+    margin-top: 4rem;
+  } 
+
+  .contactleft .contactpic img{
+    width: 85%;
+  }
+  
+  .contactleft h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+  }
+
+  .contactleft a{
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .contactleft p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .contactright h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    color: #333;
+  }
+  
+  .contactform .formgroup {
+    margin-bottom: 15px;
+  }
+  
+  .contactform label {
+    display: block;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .contactform input,
+  .contactform textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .contactform textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contactbutton {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(103, 63, 189);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .contactbutton:hover {
+    background-color: rgb(84, 46, 168);
+  }
+  
+
+  @media only screen and (max-width:600px){
+
+    .contact{
+        padding: 20px;
+        margin-top: 10rem;
+    }
+
+    .contactmain {
+        flex-direction: column;
+    }
+  }

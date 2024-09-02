@@ -1,0 +1,240 @@
+.footer{
+    width: 100%;
+    height: 40rem;
+    /* border: 2px solid black; */
+    /* border-top: 0.2px solid rgba(130, 130, 130, 0.187); */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(222, 220, 245, 0.412);
+}
+
+.footer .footcont{
+    width: 100%;
+    /* border: 2px solid  black; */
+}
+
+
+/* footer top */
+.footer .footertop{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.footer .footerleft{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerleft h2{
+    font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 1.6px;
+  margin-left: 4.2rem;
+}
+
+
+.footer .footerright{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footerright .footer-right-cont{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.footer-right-cont .footlist{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.footer-right-cont .footlist h2{
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+    font-weight: 200;
+}
+
+.footer-right-cont .footlist  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.3rem;
+    list-style: none;
+    /* align-items: center; */
+    /* margin-left: 2rem; */
+}
+
+.footerquicklinks ul li{
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.footerquicklinks ul li:hover{
+    color: rgb(48, 29, 192);
+}
+
+ .footsocial .footlist ul{
+  flex-direction: row;
+  margin-left: -2.5rem;
+}
+
+ .footsocial ul  img{
+    width: 3rem;
+    cursor: pointer;
+    transition: 0.2s ease ;
+    border-radius: 50%;
+    margin-top: -0.4rem;
+}
+
+.footsocial ul  img:hover{
+    transform: scale(1.05);
+}
+
+.footmail  .footlist{
+    align-items: center;
+}
+
+.footmail form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 1px solid rgba(210, 206, 206, 0.581);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+.footmail form input{
+    padding:0.6rem 1rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footmail form textarea{
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footmail form button{
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(84, 46, 168);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* end footer top */
+
+/* footer mid */
+.footer .footermid{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.footermid .footmidpartners{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footermid .footmidpartners h2{
+    font-size: 1.6rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+/* end footer mid */
+
+/* footer bot */
+.footer .footerbot{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footerbot .copy{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.footer .footerbot p{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+   
+}
+/* end footer bot */
+
+@media only screen and (max-width:600px){
+
+    .footer{
+        height: 100%;
+        padding-top: 2rem;
+    }
+
+    .footer .footertop{
+        flex-direction: column;
+    }
+
+    .footer .footerright{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .footer-right-cont .footlist  ul{
+        align-items: center;
+    }
+
+    .footsocial .footlist ul{
+        margin-left: -1rem;
+    }
+
+    .footerright .footer-right-cont{
+        width: 100%;
+    }
+
+    .footer .footerleft{
+        width: 100%;
+    }
+
+    
+   .footer-right-cont .footlist{
+    align-items: center;
+    margin-top: 4rem;
+   }
+
+    .footer .footerleft h2{
+        margin-left: 0rem;
+    }
+
+    .footermid .footmidpartners{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .footer .footerbot{
+        padding: 1rem;
+    }
+}

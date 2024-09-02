@@ -1,0 +1,29 @@
+.mcafee .antivBanner{
+    background-color: rgb(139, 43, 43);
+}
+
+.mcafee .antivBanner .antivsupport h2{
+  color: white;
+}
+
+.mcafee .antivBanner .antivsupport  h3{
+  color: white;
+}
+
+.mcafee .antivBanner .antivsupport p{
+    color: white;
+}
+
+.mcafee .antivBanner .antivsupport a{
+    color: white;
+}
+
+.mcafee .customersupportbox{
+    background-color: rgb(150, 50, 50);
+}
+
+.mcafee .antivlist button{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(164, 54, 54);
+}

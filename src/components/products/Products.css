@@ -1,0 +1,130 @@
+.products{
+    width: 100%;
+    height: 67rem;
+    position: relative;
+    /* border: 2px solid black; */
+    padding: 2rem 2rem;
+}
+
+.products .productshead h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.productslist .productlistmain{
+    height: 67rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 2rem;
+    overflow-y: auto;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.productslist .productlistmain::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.productslist .productlistmain::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.productslist .productlistmain::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+
+.productslist .product{
+    width:30rem;
+    height: 42rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: 0.2s ease;
+}
+
+.productslist .product:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+ .product .productimg{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.product .productimg img{
+    width: 80%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.product .productdetails{
+    width: 100%;
+    height: 10%;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product .productdetails h2{
+    width: 60%;
+    font-size: 1.8rem;
+    font-weight: 200;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.product .productdetails p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.product .productbutton{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    gap:2rem;
+    /* justify-content:space-between */
+}
+
+.product .productbutton button{
+    padding: 0.9rem 2rem;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(84, 46, 168);
+    cursor: pointer;
+    color: white;
+}
+
+.product .productbutton .addbutton{
+    padding: 0.99rem 2.5rem;
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.product .productbutton .addbutton img{
+  width:22px;
+}
+
+.product .productbutton .addbutton span{
+    margin-bottom: -0.2rem;
+}

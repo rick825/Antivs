@@ -1,0 +1,211 @@
+.home{
+    width: 100%;
+    height: 67rem;
+    margin-top: 10.4rem;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.homeleftnav .hr{
+    border: 0.4px solid black;
+    /* transform: rotate(90deg); */
+    position: absolute;
+    top:50%;
+    right:50%;
+    background-color: black;
+}
+
+.home .homecont{
+    width: 50%;
+    height: 67rem;
+    position: relative;
+}
+
+
+.home .homeleft{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .homeleft .hometophead{
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+  margin-top: -20rem;
+  margin-left: -2rem;
+}
+
+.home .homeleft .hometophead h2{
+    font-size: 7rem;
+    font-weight: 200;
+}
+
+.home .homeleft .hometophead p{
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+.home .homeleft .hometophead .hometopbutton{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.hometophead .hometopbutton button{
+    padding: 0.8rem 1.5rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 1.5rem;
+    transition: 0.2s ease;
+}
+
+.hometophead .hometopbutton button:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.hometophead .hometopbutton .shopnowbtn{
+    background-color: rgb(84, 46, 168);
+    color: white;
+}
+
+.hometophead .hometopbutton .aboutusbtn{
+ border: 0.2px solid  rgb(84, 46, 168);
+}
+
+.hometophead .hometopbutton .aboutusbtn:hover{
+    background-color:rgb(84, 46, 168);
+    color: white;
+}
+
+.hometopbot{
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    left:5%;
+    bottom:0%;
+    display: flex;
+    gap:2rem;
+    opacity: 0.99;
+    transform: scale(0.82);
+}
+
+.hometopbot .homeicon{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    text-align: center;
+}
+
+.hometopbot .hicon{
+    width: 6rem;
+    height:6rem;
+    border-radius: 50%;
+    border: 1px solid rgb(84, 46, 168);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.hometopbot .hicon .himg{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 46, 168);
+}
+
+.hometopbot .hicon img{
+    width: 30px;
+}
+
+.hometopbot .htext h3{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+/* homeright */
+.home .homeright{
+  
+}
+
+.homerightbot{
+    display: none;
+}
+
+.home .homeright .vectorimg{
+    margin-top: 4rem;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.homeright .vectorimg img{
+    width: 85%;
+    /* position: absolute; */
+}
+
+.homeright .vectorimg .img1{
+    /* top: -5%; */
+}
+
+.homeright .vectorimg .img2{
+
+}
+
+
+/* end homeright */
+
+/* media */
+@media only screen and (max-width:600px) {
+    .home{
+        flex-direction: column;
+        height: 72rem;
+        margin-top: 9rem;
+    }
+
+    .home .homecont{
+        width: 100%;
+        padding: 1rem 3rem;
+    }
+
+    
+    .home .homeleft .hometophead{
+        width: 100%;
+        margin-top: -2rem;
+        gap:1.5rem
+    }
+
+    .home .homeleft .hometophead h2{
+        font-size: 6rem;
+    }
+
+    .homeleftbot{
+        display: none;
+    }
+
+    .home .homeright .vectorimg{
+        margin-top: -1rem;
+    }
+
+    .homerightbot{
+        width: 100%;
+        height: 35%;
+     display: flex;
+     bottom: 0%;
+     left:-2%;
+    }
+}
+/* end media */

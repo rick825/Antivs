@@ -1,0 +1,30 @@
+.norton .antivBanner{
+    /* background-color: rgb(237, 196, 12); */
+    background-color: #FEC537;
+}
+
+.norton .antivBanner .antivsupport h2{
+  color: white;
+}
+
+.norton .antivBanner .antivsupport  h3{
+  color: white;
+}
+
+.norton .antivBanner .antivsupport p{
+    color: white;
+}
+
+.norton .antivBanner .antivsupport a{
+    color: white;
+}
+
+.norton .customersupportbox{
+    background-color: rgba(70, 57, 11, 0.111);
+}
+
+.norton .antivlist button{
+    color: rgb(45, 44, 44);
+    cursor: pointer;
+    background-color: #FEC537;
+}
