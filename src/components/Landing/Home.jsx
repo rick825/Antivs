@@ -26,7 +26,7 @@ const Home = () => {
         <div className="homeleft homecont">
             <div className="hometophead">
               <h2>Shop The Best!!</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus commodi reprehenderit est nulla incidunt pariatur facilis assumenda magnam corrupti explicabo non distinctio perspiciatis, sit autem provident rem vero corporis.</p>
+              <p>Discover advanced protection for your devices with our comprehensive antivirus solutions. At Antivs.com, we provide a range of high-performance antivirus software to defend against the latest threats. Our solutions offer robust security, real-time scanning, and peace of mind, ensuring that your personal and professional data remains safe. Explore our collection to find the perfect antivirus software tailored to your needs and experience unmatched digital security.</p>
               <div className="hometopbutton">
                  <button className='shopnowbtn' onClick={handleShopNow}>Shop Now</button>
                  <button className='aboutusbtn' onClick={()=>navigate('/about')} >About Us →</button>

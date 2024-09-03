@@ -28,7 +28,7 @@ const Banner = () => {
         <div className="banner">
           <div className="bannertext">
             <h2>Buy the Best Antivirus!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quas, consequatur labore ratione pariatur nesciunt doloremque, itaque voluptatum expedita voluptas tenetur laborum saepe quos architecto suscipit rerum corporis voluptatibus adipisci!</p>
+            <p>Protect your digital world with our top-rated antivirus solutions. At Antivs.com, we offer a wide range of reliable and cutting-edge antivirus software designed to safeguard your devices against viruses, malware, and online threats. Our products ensure real-time protection, secure browsing, and peace of mind, so you can focus on what matters most.</p>
             <button onClick={handleNavigation}>Buy Now →</button>
           </div>
           <div className="bannerpic">
@@ -37,9 +37,10 @@ const Banner = () => {
         </div>
         <div className="banner banner2">
           <div className="bannertext">
-            <h2>Secure Your Devices!!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quas, consequatur labore ratione pariatur nesciunt doloremque, itaque voluptatum expedita voluptas tenetur laborum saepe quos architecto suscipit rerum corporis voluptatibus adipisci!</p>
-            <button>Learn More →</button>
+          <h2>Secure Your Devices!</h2>
+          <p>Ensure your digital safety with our top-rated antivirus software. At Antivs.com, we provide reliable and efficient solutions to protect your devices from the latest threats. Our advanced technology offers comprehensive defense against viruses, malware, and cyber attacks, so you can enjoy worry-free browsing and secure your valuable information. Discover the ultimate in device security with us!</p>
+          <button>Learn More →</button>
+
           </div>
           <div className="bannerpic bannerpic2">
             <img src={sec} alt="Another Product" />
